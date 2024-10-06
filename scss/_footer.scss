@@ -1,0 +1,165 @@
+.footer-section{
+ margin: 7rem;
+ .footer-wrap{
+  background-image: url(/images/cta-img-bg.jpg);
+  margin-bottom: -50px;
+  border-radius: 40px;
+  padding: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+  z-index: 4;
+  min-width: 400px;
+  &::before{
+   content: "";
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background:rgba($dark, .7) ;
+   width: 100%;
+  }
+  .subscribe-form-wrap,.subscribe-form{
+   z-index: 2;
+   position: relative;
+  }
+  h3{
+   font-size: 40px;
+   color: $white;
+  }
+  input[type="email"] {
+  padding: 20px 30px;
+  border-radius: 20px;
+  border: none;
+  width: 100%
+ 
+  }
+  .btn{
+   position: absolute;
+   border-radius:10px ;
+   transform: translateY(-50%);
+   right: 12px;
+   bottom: -21.5px;
+   font-family: $font-family1;
+   font-size: 17px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+  }
+ }
+}
+
+
+#footer2{
+ padding: 4rem 0;
+ position: relative;
+ overflow: hidden;
+ .container{
+  
+  .bg-image{
+   z-index: -1;
+   position: absolute;
+   top: -170px;
+   left: 630px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   transform: rotate(-85deg);
+   opacity: .2;
+   width: 800px;
+   height: 1020px;
+   
+  }
+ }
+ h3{
+  font-family: $font-family1;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+ }
+
+ .fkid1{
+  .learn-more{
+   text-decoration: underline;
+   color: $body;
+   margin-left: 4px;
+  }
+  .fkid1-inner{
+  margin-top: 30px;
+  }
+  .opening-hours{
+   display: flex;
+   li{
+   margin-right: 36px;
+    span{
+    display: block;
+    text-align: left;
+    margin-top: 7px;
+    }
+   }
+  }
+
+ }
+
+
+
+
+ .fkid2{
+ margin-top: 27px;
+ .fkid2-inner{
+ .list-unstyled{
+ li{
+  margin-top: 13px;
+  a{
+   color: $body;
+  }
+ }
+ }
+
+
+ }
+}
+
+.social-wrap{
+ .social{
+  li{
+   display: inline-block;
+   
+   a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: rgb(31, 31, 31);
+   &:hover{
+    color: $white;
+    background: black;
+   }
+   }
+  }
+  }
+}
+}
+
+.copyright-wrap{
+ margin-top: 40px;
+ border-top: 1px solid #c0c0c0;
+ padding: 2rem 0;
+ .copyright{
+  
+  a{
+   color: $body;
+   margin-left: 5px;
+  }
+  .text-end{
+   a{
+    margin-right: 20px;
+   }
+  }
+ }
+}

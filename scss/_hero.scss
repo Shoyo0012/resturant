@@ -1,0 +1,183 @@
+.circles{
+ position: absolute;
+ top: -480px;
+ left: -480px;
+ z-index: -1;
+
+ span{
+  position: absolute;
+  display: inline-block;
+  width: 960px;
+  height: 960px;
+  border: 1px solid #e7e8e9;
+  border-radius: 100%;
+ }
+ .circle1{
+  top: 120px;
+  left: 20px;
+
+ }
+ .circle2{
+  top: -50px;
+  left: 50px;
+  
+ }
+ .circle3{
+  top: 50px;
+  left: 50px;
+  
+ }
+}
+
+
+
+#hero-section {
+ padding: 7rem 0; 
+ .container {
+   .row {
+    display: flex;
+    justify-content: space-between;
+
+     #circle-type {
+       position: relative;
+       left: -42%;
+       margin-bottom: 30px;
+       text-align: left;
+       font-family: $font-family1;
+       font-size: 12px;
+       font-weight: 700;
+       letter-spacing: 0.2rem;
+       color: $dark;
+     }
+
+     h1, p {
+       margin-bottom: 30px;
+     }
+     h1 {
+       font-size: 50px;
+       font-weight: 700;
+     }
+     p {
+       line-height: 29px;
+     }
+
+    .social-icons{
+    margin-top: 30px;
+    position: relative;
+    .h-line{
+    height: 1px;
+    width: 290px;
+    background:rgb(203, 203, 203);
+    position: absolute;
+    left: 170px;
+    bottom: 50%;
+    }
+    &::before{
+     content: "";
+     left: 0;
+     width: 100%;
+     background: rgba($dark, .2);
+     top: 50%;
+     transform: translateY(-50%);
+     }
+    .social-icon-inner{
+     display: inline-block;
+     display: flex;
+     a{
+      margin-left: 5px;
+      width: 45px;
+      height: 45px;
+      display: inline-block;
+      color: $dark;
+      border: 1px solid $dark;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     &:hover{
+      background: black;
+      color: white;
+     }
+    &:active{
+     background: $dark;
+     color: white;
+    }
+    }
+
+    }
+    }
+     
+
+
+     .img-wrap-outer {
+      
+       .img-wrap {
+         position: relative;
+          
+         img {
+           border-radius: 100px 40px;
+         }
+         .float-image {
+          position: absolute;
+          width: 80%;
+          bottom: 10%;
+          left: -50%;
+          transform: translateX(10%);
+        }
+
+
+         &::before {
+          content: "";
+          position: absolute;
+           z-index: -1;
+           background-image: url("/images/svg/asset-svg1.svg");
+           width: 546px;
+           height: 546px;
+           top: -90px;
+           left: -190px;
+           background-size: contain;
+           background-repeat: no-repeat;
+           opacity: 0.3;
+         }
+         &::after {
+          content: "";
+          position: absolute;
+           z-index: -1;
+           background-image: url("/images/svg/asset-svg2.svg");
+          width: 500px;
+          height: 300px;
+           top: -100px;
+           right: -330px;
+           background-size: contain;
+           background-repeat: no-repeat;
+           opacity: 0.3;
+         }
+
+         .bottom{
+          content: "";
+          position: absolute;
+           z-index: -1;
+           background-image: url("/images/svg/asset-svg3.svg");
+          width: 500px;
+          height: 300px;
+          bottom: 0;
+           right: -410px;
+           background-size: contain;
+           background-repeat: no-repeat;
+           opacity: 0.3;
+         }
+        
+
+
+       }
+     }
+   }
+ }
+}
+.btns-wrap{
+  z-index: 1;
+ }
+ .btn-secondary{
+  color:white;
+  background: black;
+ }

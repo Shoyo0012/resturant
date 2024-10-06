@@ -1,0 +1,52 @@
+.chef-section{
+ background-color: $white;
+ .bg-svg{
+  position: relative;
+  &::before{
+   content: "";
+   left: -305px;
+   top: -100px;
+   z-index: 1;
+   opacity: .2;
+   position: absolute;
+   width: 431px;
+   height: 276px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-image: url('/images/svg/asset-svg5.svg');
+  }
+ }
+ h4{
+  font-size: 55px;
+ }
+ p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+ }
+ .row{
+  display: flex;
+  align-items: center;
+ }
+ .list-unstyled{
+ li{
+  margin-bottom: 30px;
+  width: 45%;
+  display: inline-block;
+  position: relative;
+  padding-left: 40px;
+  float: left;
+  &::before{
+   left: 0;
+   top: 0;
+   content: "";
+   width: 24px;
+   height: 24px;
+   position: absolute;
+   background-size: 
+   contain;
+   background-repeat: no-repeat;
+   background-image: url('/images/svg/check.svg');
+  }
+ }
+ }
+}
